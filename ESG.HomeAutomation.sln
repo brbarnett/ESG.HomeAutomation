@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESG.HomeAutomation.Web", "ESG.HomeAutomation.Web\ESG.HomeAutomation.Web.csproj", "{7B5ADF1F-D0EB-4FFC-8439-E67C35988D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESG.HomeAutomation.Client.Generic", "ESG.HomeAutomation.Client.Generic\ESG.HomeAutomation.Client.Generic.csproj", "{7D6FA0B0-D4A8-4DD8-90CF-1DFD69A9A6AC}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ESG.HomeAutomation.Azure", "ESG.HomeAutomation.Azure\ESG.HomeAutomation.Azure.ccproj", "{51ECC296-53AD-4E40-9DC7-B101F4BE6910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESG.HomeAutomation.WorkerRole", "ESG.HomeAutomation.WorkerRole\ESG.HomeAutomation.WorkerRole.csproj", "{E426FEAE-5216-4255-B517-BFA56D6CC79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESG.HomeAutomation.Micro.Infrastructure", "ESG.HomeAutomation.Micro.Infrastructure\ESG.HomeAutomation.Micro.Infrastructure.csproj", "{96DBCDCD-F259-47E2-9097-F4AC57ECC2E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESG.HomeAutomation.Micro.Domain", "ESG.HomeAutomation.Micro.Domain\ESG.HomeAutomation.Micro.Domain.csproj", "{0BC5706F-490A-4E02-8CA6-308121C11941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESG.HomeAutomation.Micro.Common", "ESG.HomeAutomation.Micro.Common\ESG.HomeAutomation.Micro.Common.csproj", "{B8B808A7-547F-42DA-9B4F-9707493BD40B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESG.HomeAutomation.M2Mqtt", "ESG.HomeAutomation.M2Mqtt\ESG.HomeAutomation.M2Mqtt.csproj", "{9917D48A-889C-46D2-A64A-3E88712971BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESG.HomeAutomation.MqttBroker", "ESG.HomeAutomation.MqttBroker\ESG.HomeAutomation.MqttBroker.csproj", "{29644DDC-D620-424C-AE54-AAD346A01240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESG.HomeAutomation.M2MqttNetMf43", "ESG.HomeAutomation.M2MqttNetMf43\ESG.HomeAutomation.M2MqttNetMf43.csproj", "{6BF3343B-5FFC-4D24-B849-C626D3D1670B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B5ADF1F-D0EB-4FFC-8439-E67C35988D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5ADF1F-D0EB-4FFC-8439-E67C35988D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5ADF1F-D0EB-4FFC-8439-E67C35988D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5ADF1F-D0EB-4FFC-8439-E67C35988D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6FA0B0-D4A8-4DD8-90CF-1DFD69A9A6AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6FA0B0-D4A8-4DD8-90CF-1DFD69A9A6AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6FA0B0-D4A8-4DD8-90CF-1DFD69A9A6AC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7D6FA0B0-D4A8-4DD8-90CF-1DFD69A9A6AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6FA0B0-D4A8-4DD8-90CF-1DFD69A9A6AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6FA0B0-D4A8-4DD8-90CF-1DFD69A9A6AC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{51ECC296-53AD-4E40-9DC7-B101F4BE6910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51ECC296-53AD-4E40-9DC7-B101F4BE6910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51ECC296-53AD-4E40-9DC7-B101F4BE6910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51ECC296-53AD-4E40-9DC7-B101F4BE6910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E426FEAE-5216-4255-B517-BFA56D6CC79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E426FEAE-5216-4255-B517-BFA56D6CC79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E426FEAE-5216-4255-B517-BFA56D6CC79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E426FEAE-5216-4255-B517-BFA56D6CC79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DBCDCD-F259-47E2-9097-F4AC57ECC2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DBCDCD-F259-47E2-9097-F4AC57ECC2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DBCDCD-F259-47E2-9097-F4AC57ECC2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DBCDCD-F259-47E2-9097-F4AC57ECC2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC5706F-490A-4E02-8CA6-308121C11941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC5706F-490A-4E02-8CA6-308121C11941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC5706F-490A-4E02-8CA6-308121C11941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC5706F-490A-4E02-8CA6-308121C11941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B808A7-547F-42DA-9B4F-9707493BD40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B808A7-547F-42DA-9B4F-9707493BD40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B808A7-547F-42DA-9B4F-9707493BD40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B808A7-547F-42DA-9B4F-9707493BD40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9917D48A-889C-46D2-A64A-3E88712971BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9917D48A-889C-46D2-A64A-3E88712971BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9917D48A-889C-46D2-A64A-3E88712971BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9917D48A-889C-46D2-A64A-3E88712971BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29644DDC-D620-424C-AE54-AAD346A01240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29644DDC-D620-424C-AE54-AAD346A01240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29644DDC-D620-424C-AE54-AAD346A01240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29644DDC-D620-424C-AE54-AAD346A01240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF3343B-5FFC-4D24-B849-C626D3D1670B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF3343B-5FFC-4D24-B849-C626D3D1670B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF3343B-5FFC-4D24-B849-C626D3D1670B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF3343B-5FFC-4D24-B849-C626D3D1670B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

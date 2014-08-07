@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AzureCredentials>{"ServiceManagementEndpoint":"https:\/\/management.core.windows.net\/","SubscriptionId":"06904744-1c34-4188-9685-fc36b4031cac"}</AzureCredentials>
+    <AzureDeleteDeploymentOnFailure>False</AzureDeleteDeploymentOnFailure>
+    <AzureDeploymentLabel>ESG.HomeAutomation.Azure</AzureDeploymentLabel>
+    <AzureDeploymentReplacementMethod>AutomaticUpgrade</AzureDeploymentReplacementMethod>
+    <AzureSlot>Production</AzureSlot>
+    <AzureEnableRemoteDesktop>True</AzureEnableRemoteDesktop>
+    <AzureEnableWebDeploy>False</AzureEnableWebDeploy>
+    <AzureFallbackToDeleteAndRecreateIfUpgradeFails>False</AzureFallbackToDeleteAndRecreateIfUpgradeFails>
+    <AzureHostedServiceLabel>esg-gnatmq</AzureHostedServiceLabel>
+    <AzureHostedServiceName>esg-gnatmq</AzureHostedServiceName>
+    <AzureEnableIntelliTrace>False</AzureEnableIntelliTrace>
+    <AzureEnableProfiling>False</AzureEnableProfiling>
+    <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
+    <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
+    <AzureStorageAccountLabel>esgstoragerepository</AzureStorageAccountLabel>
+    <AzureStorageAccountName>esgstoragerepository</AzureStorageAccountName>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+  </PropertyGroup>
+</Project>

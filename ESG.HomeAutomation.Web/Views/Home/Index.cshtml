@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="netduino">
+                <h3 data-bind="text: deviceId()"></h3>
+                <div>
+                    <input type="button" class="btn btn-default" id="toggleLed" value="Toggle LED" data-bind="click: toggleLed" />
+                </div>
+                <div data-bind="text: 'Device status: ' + connected()"></div>
+                <div data-bind="text: 'LED status: ' + led()"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="scripts"></div>
+
+<!--Add script to update the page and send messages.--> 
+<script type="text/javascript">
+    (function ($) {
+        
+        var hub = $.connection.communicationHub;
+
+        hub.client.registerDevice = function(data) {
+            $("#scripts").trigger("registerDevice", [data]);
+        };
+        
+        $.connection.hub.start().done(function () {
+            ESG.Common.bindViewModel("#netduino", new ESG.Models.Netduino(hub));            
+        });
+    })(jQuery);
+</script>
